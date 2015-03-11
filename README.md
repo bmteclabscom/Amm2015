@@ -1,2 +1,2 @@
 # amm2015
-Amministrazio di sistema
+Amministrazione di sistema
