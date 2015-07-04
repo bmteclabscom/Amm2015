@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+	<meta http-equip="Content-Type" content="text/html; charset=utf-8">
+	<link	rel="stylesheet" type="text/css"	href="style.css" media="screen">	
+	<title>GoodStore.net</title>
+</head>
+
+<body>
+
+<div class='wrap'>
+    <div class='head'>Header</div>
+    <div class='bodywrap'>
+        <div class='left'>left</div>
+        <div class='right'>right</div>
+        <div class='center'>something </div>
+    </div>
+ </div>
+
+</body> 
+ 
+ </html>

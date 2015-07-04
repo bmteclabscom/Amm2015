@@ -1,0 +1,52 @@
+/**selettori delle impostazioni schermo*/
+
+html,body {
+	height:100%
+}
+	
+.homepage {
+	width:100%;
+	height:100%;
+	position:relative;
+}
+	
+.testata {
+	height:100px;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+} 
+	
+.colonne {
+	margin-top:100px;
+	width:100%;
+} 
+
+.colonne, .colonnaSinistra, .centro, .colonnaDestra{
+	height:100%;
+}
+	
+.colonnaSinistra, .colonnaDestra {
+	width:200px;
+	height:100%;
+}
+	
+.colonnaSinistra {
+	float:left;
+}
+
+.centro {
+	margin-left:200px; 
+}
+
+.colonnaDestra {
+	float:right;
+}
+	
+footer {
+	width: 100%;
+	bottom: 0;
+	height: 30px;
+	position: fixed;
+}

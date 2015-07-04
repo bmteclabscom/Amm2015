@@ -1,0 +1,21 @@
+/*selettori colori di sfondo*/
+
+.testata {
+	background-color:#009E60
+}
+
+.colonnaSinistra {
+	background-color: #008000
+}
+	
+.centro {
+	background-color: #FFF
+}
+	
+.colonnaDestra {
+	background-color:#ccc
+}
+	
+footer {
+	background-color: #FFF;
+}
