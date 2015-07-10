@@ -1,1 +1,5 @@
-<div class='testata'> <p>GoodStore.net</p>
+<div class='testata'> 
+	
+	<p>GoodStore.net</p>
+
+</div>

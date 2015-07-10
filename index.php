@@ -9,6 +9,7 @@
 <html>
 
 	<head>
+		
 		<meta http-equip="Content-Type" content="text/html; charset=utf-8">
 		
 		<!-- selezione degli stili css-->
@@ -18,6 +19,7 @@
 
 
 		<title>GoodStore.net</title>  <!-- il titolo è un richiamo non troppo velato. AHAH-->
+		
 	</head>
 
 	<body>
@@ -26,12 +28,13 @@
 			
 				<?php include('view/testata.php'); ?>
 
-			</div>
 		
 			<div class='colonne'>
-				<div class='colonnaSinistra'> </div>
-				<div class='colonnaDestra'> </div>				
-				<div class='centro'> <p>GoodStore.net</p> </div>
+				
+				<?php include('view/colonnaSinistra.php'); ?>
+				<?php include('view/colonnaDestra.php'); ?>
+				<?php include('view/home.php'); ?>
+
 				</div>
 		</div>
 		
