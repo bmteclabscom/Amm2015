@@ -3,10 +3,10 @@
 	session_start();
 		
 	//da implementare
-	$server;
-	$username;
-	$password;
-	$database;
+	$server = "localhost";
+	$username = "";
+	$password = "";
+	$database = "";
 	
 	$mysqli = new mysqli();
 	$mysqli->connect($server, $username, $password, $database);
