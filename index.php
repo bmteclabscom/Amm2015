@@ -24,8 +24,8 @@
 
 		<div class='homepage'>
 			
-			<div class='testata'> <p>GoodStore.net</p>
-				
+				<?php include('view/testata.php'); ?>
+
 			</div>
 		
 			<div class='colonne'>
