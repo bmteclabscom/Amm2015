@@ -50,3 +50,11 @@ footer {
 	height: 30px;
 	position: fixed;
 }
+
+
+/**impostazioni del banner */
+
+img {
+	width: 70%; 
+    height: auto;
+}
