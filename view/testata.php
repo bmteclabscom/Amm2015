@@ -1,7 +1,11 @@
 <div class='testata'> 
 	
-	<p>GoodStore.net</p>
+	<p>
+		<img title="bannerSito" alt="Banner GoodStore.net" src="view/immagini/banner.png" >
+	</p>
 	
-	<p>Lo store | Carrello | Chi siamo | Help </p>
-
+	<div class='barraMenu'> 
+		<p> Lo store | Carrello | Chi siamo | Help </p>
+	</div>
+	
 </div>
