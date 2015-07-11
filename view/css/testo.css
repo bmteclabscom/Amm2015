@@ -51,6 +51,8 @@ h3.categorieTitolo {
 }
 
 a.categorieElenco, a.categorieElenco:hover{
+	
+	font-size: 12px;
 	font-family: "Arial", sans;
 	color: white;
 	text-decoration: none;
