@@ -4,7 +4,7 @@
 		Categorie
 	</h2>	
 	
-	<p class="categorieElenco">		
+	<p class="categorieElenco">		<!-- elenco categorie presenti -->
 		<ul>
 			<li><a class="categorieElenco" href="" alt="Libri">Libri</a></li>
 			<li><a class="categorieElenco" href="" alt="Elettronica">Elettronica</a></li>
