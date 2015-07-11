@@ -42,3 +42,15 @@ ul {
     list-style-type: none;
 }
 
+/**colonna di sinistra*/
+h3.categorieTitolo {
+	font-family: "Arial", sans;
+	color: white;
+}
+
+p.categorieElenco,  p.categorieElenco:hover{
+	font-family: "Arial", sans;
+	color: white;
+	text-decoration: none;
+
+}
