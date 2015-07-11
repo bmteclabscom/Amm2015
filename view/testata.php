@@ -5,9 +5,9 @@
 	</p>
 	
 	<div class='barraMenu'> 
-		<p id="menu"> <a href="index.php?page=home">Lo store</a> | 
-			<a href="index.php?page=carrello">Carrello</a> | <a href="index.php?page=chisiamo">Chi siamo</a> |
-				<a href="index.php?page=help">Help</a> </p>
+		<p id="menu"> <a class="testoUp" href="index.php?page=home">Lo store</a> | 
+			<a class="testoUp" href="index.php?page=carrello">Carrello</a> | <a class="testoUp" href="index.php?page=chisiamo">Chi siamo</a> |
+				<a class="testoUp" href="index.php?page=help">Help</a> </p>
 	</div>
 	
 </div>
