@@ -50,3 +50,9 @@ footer {
 	height: 30px;
 	position: fixed;
 }
+
+/**impostazioni banner del sito */
+img#bannerSito {
+	margin-left: 20px;
+
+}

@@ -1,7 +1,7 @@
 <div class='testata'> 
 	
 	<p>
-		<img title="bannerSito" alt="Banner GoodStore.net" src="view/immagini/banner.png" >
+		<img id="bannerSito" title="bannerSito" alt="Banner GoodStore.net" src="view/immagini/banner.png" >
 	</p>
 	
 	<div class='barraMenu'> 
