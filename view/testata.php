@@ -5,7 +5,7 @@
 	</p>
 	
 	<div class='barraMenu'> 
-		<p> Lo store | Carrello | Chi siamo | Help </p>
+		<p id="menu"> Lo store | Carrello | Chi siamo | Help </p>
 	</div>
 	
 </div>
