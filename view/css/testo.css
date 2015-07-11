@@ -13,7 +13,9 @@ footer {
 	text-align: left;
 }
 
+/***selettore del menù della testata*/
 p#menu {
 	text-align: right;
 	color: #FFFFFF;
+	margin-right: 50px;
 }
