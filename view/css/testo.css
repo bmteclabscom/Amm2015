@@ -36,3 +36,9 @@ a.testoUp:hover {
 	font-weight: bold;
 	color: #89CFF0; /**azzurro */
 }
+
+/*liste non ordinate*/
+ul {
+    list-style-type: none;
+}
+
