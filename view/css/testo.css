@@ -11,7 +11,7 @@ p#footerText {
 	font-family: "Arial", sans;
 	font-size: 12px;
 	text-align: right;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 	margin-right: 10px
 	
 }
@@ -26,9 +26,11 @@ p#menu {
 /**colore dei link*/
 
 a.testoUp {
+	font-weight: bold;
 	color: white;
 }
 
 a.testoUp:hover {
+	font-weight: bold;
 	color: #F7F7F7; /**grigio 20%*/
 }
