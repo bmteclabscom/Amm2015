@@ -40,9 +40,7 @@ a.testoUp:hover {
 /*liste non ordinate*/
 ul {
     list-style-type: none;
-    font-family: "Arial", sans;
-	color: white;
-	text-decoration: none;
+
 }
 
 /**colonna di sinistra*/
@@ -52,7 +50,7 @@ h3.categorieTitolo {
 	margin-left: 5px;
 }
 
-p.categorieElenco,  p.categorieElenco:hover{
+a.categorieElenco, a.categorieElenco:hover{
 	font-family: "Arial", sans;
 	color: white;
 	text-decoration: none;
