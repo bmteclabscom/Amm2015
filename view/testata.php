@@ -1,7 +1,9 @@
 <div class='testata'> 
 	
 	<p>
-		<img id="bannerSito" title="bannerSito" alt="Banner GoodStore.net" src="view/immagini/banner.png" >
+		<a href="index.php?page=home">
+			<img id="bannerSito" title="bannerSito" alt="Banner GoodStore.net" src="view/immagini/banner.png" >
+		</a>
 	</p>
 	
 	<div class='barraMenu'> 
