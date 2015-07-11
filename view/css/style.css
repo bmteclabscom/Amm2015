@@ -53,6 +53,6 @@ footer {
 
 /**impostazioni banner del sito */
 img#bannerSito {
-	margin-left: 20px;
-
+	margin-left: 10px;
+	margin-top: 5px;
 }

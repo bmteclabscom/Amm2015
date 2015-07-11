@@ -1,3 +1,3 @@
 <footer>
-			<p> Alessio Manai &#169;2015 </p>
+			<p id="footerText"> Alessio Manai &#169;2015 </p>
 		</footer>
