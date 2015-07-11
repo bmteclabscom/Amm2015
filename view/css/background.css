@@ -4,17 +4,17 @@
 	background-color:#1560BD;
 }
 
-.colonnaSinistra {
+.colonnaSinistra, .colonnaDestra {
 	background-color: #4B61D1;
 }
 	
 .centro {
 	background-color: #FFF;
 }
-	
-.colonnaDestra {
+
+/*.colonnaDestra {
 	background-color:#89CFF0;
-}
+}*/
 	
 footer {
 	background-color: #FFF;
