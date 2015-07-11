@@ -1,4 +1,4 @@
-
+<head>
 		<meta http-equip="Content-Type" content="text/html; charset=utf-8">
 		
 		<!-- selezione degli stili css-->
@@ -8,4 +8,4 @@
 
 
 		<title>GoodStore.net</title>  <!-- il titolo è un richiamo non troppo velato. AHAH-->
-
+	</head>
