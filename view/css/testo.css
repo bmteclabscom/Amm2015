@@ -45,6 +45,7 @@ ul {
 
 /**colonna di sinistra*/
 h3.categorieTitolo {
+	font-size: 14px;
 	font-family: "Arial", sans;
 	color: white;
 	margin-left: 5px;
