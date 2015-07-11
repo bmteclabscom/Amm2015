@@ -1,19 +1,19 @@
 /*selettori colori di sfondo*/
 
 .testata {
-	background-color:#1560BD
+	background-color:#1560BD;
 }
 
 .colonnaSinistra {
-	background-color: #4B61D1
+	background-color: #4B61D1;
 }
 	
 .centro {
-	background-color: #FFF
+	background-color: #FFF;
 }
 	
 .colonnaDestra {
-	background-color:#89CFF0
+	background-color:#89CFF0;
 }
 	
 footer {

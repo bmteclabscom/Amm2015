@@ -28,9 +28,11 @@ p#menu {
 a.testoUp {
 	font-weight: bold;
 	color: white;
+	text-decoration: none;
+
 }
 
 a.testoUp:hover {
 	font-weight: bold;
-	color: #D0B1A1; /**grigio */
+	color: #89CFF0; /**azzurro */
 }
