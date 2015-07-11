@@ -29,7 +29,8 @@ html,body {
 	
 .colonnaSinistra, .colonnaDestra {
 	width:200px;
-	height:100%;
+	height: 80%;
+	position: fixed;
 }
 	
 .colonnaSinistra {
