@@ -67,3 +67,7 @@ a.categorieElenco, a.categorieElenco:hover{
 p.help {
 	font-size: 14px;
 }
+
+ul.help {
+	font-size: 12px;
+}
