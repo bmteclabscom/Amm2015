@@ -1,6 +1,6 @@
 <div class="help"> 
 	
-	<h2>Progetto Amministrazione di Sistema a.a. 2014/2015 </h1>
+	<h2>Progetto di Amministrazione di Sistema a.a. 2014/2015 </h1>
 	
 	<h3>Descrizione progetto</h2>
 	<p>Il progetto è relativo a un piccolo webstore dove, in base ai privilegi utente, 
