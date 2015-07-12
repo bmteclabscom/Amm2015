@@ -63,3 +63,7 @@ a.categorieElenco, a.categorieElenco:hover{
 .help {
 	font-family: "Arial", sans;
 }
+
+p.help {
+	font-size: 14px;
+}
