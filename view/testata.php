@@ -2,7 +2,7 @@
 	
 	<p> <!-- logo GOODSTORE.net-->
 		<a href="index.php?page=home">
-			<img id="bannerSito" title="bannerSito" alt="Banner GoodStore.net" src="view/immagini/banner.png" >
+			<img id="bannerSito" title="GoodStore.net" alt="Banner GoodStore.net" src="view/immagini/banner.png" >
 		</a>
 	</p>
 	
