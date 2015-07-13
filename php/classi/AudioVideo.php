@@ -11,7 +11,7 @@
 	
 		public function getDurata(){
 			
-			return $this->pagine;
+			return $this->pagine;	//pigrizia e astrazione portatemi via. è fatto per sfruttare la struttura libri, praticamente uguale
 		}
 		
 	}
