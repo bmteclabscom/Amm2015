@@ -25,14 +25,14 @@ p#menu {
 
 /**colore dei link*/
 
-a.testoUp {
+a.testoUp, .loginRegistrati {
 	font-weight: bold;
 	color: white;
 	text-decoration: none;
 
 }
 
-a.testoUp:hover {
+a.testoUp:hover , .loginRegistrati:hover{
 	font-weight: bold;
 	color: #89CFF0; /**azzurro */
 }
@@ -44,7 +44,7 @@ ul {
 }
 
 /**colonna di sinistra*/
-h3.categorieTitolo , .loginRegistrati {
+h3.categorieTitolo {
 	font-size: 14px;
 	font-family: "Arial", sans;
 	color: white;
