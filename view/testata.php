@@ -7,9 +7,9 @@
 	</p>
 	
 	<div class='barraMenu'> <!-- menù della testata in basso a destra-->
-		<p id="menu"> <a class="testoUp" href="pages/store.php">Lo store</a> | 
-			<a class="testoUp" href="pages/carrello.php">Carrello</a> | <a class="testoUp" href="pages/chisiamo.php">Chi siamo</a> |
-				<a class="testoUp" href="pages/help.php">Help</a> </p>
+		<p id="menu"> <a class="testoUp" href="store.php">Lo store</a> | 
+			<a class="testoUp" href="carrello.php">Carrello</a> | <a class="testoUp" href="chisiamo.php">Chi siamo</a> |
+				<a class="testoUp" href="help.php">Help</a> </p>
 	</div>
 	
 </div>
