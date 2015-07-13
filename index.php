@@ -33,7 +33,7 @@
 				
 				<?php include('view/colonnaSinistra.php'); ?>
 				<?php include('view/colonnaDestra.php'); ?>
-				<?php include('view/help.php'); ?>
+				<?php include('view/login.php'); ?>
 
 				</div>
 		</div>
