@@ -32,12 +32,12 @@ a.testoUp {
 
 }
 
-a.testoUp:hover , .loginRegistrati:hover{
+a.testoUp:hover , a.loginRegistrati:hover{
 	font-weight: bold;
 	color: #89CFF0; /**azzurro */
 }
 
-.loginRegistrati {
+a.loginRegistrati {
 	font-weight: bold;
 	color: white;
 	text-decoration: none;
