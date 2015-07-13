@@ -44,7 +44,7 @@ ul {
 }
 
 /**colonna di sinistra*/
-h3.categorieTitolo {
+h3.categorieTitolo , .loginRegistrati {
 	font-size: 14px;
 	font-family: "Arial", sans;
 	color: white;

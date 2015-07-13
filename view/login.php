@@ -1,6 +1,6 @@
 <div class="formLogin">
 	
-	<form class="form" action='index.php?page=login' method="POST">
+	<form class="form" action="" method="POST">
 		
 		<fieldset class='loginForm'>
 			<label>Username: <input type='text' name='username' placeholder='Username' maxlength='15' title="Inserisci l' username" required></label><br>

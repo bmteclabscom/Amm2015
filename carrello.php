@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 
 	<?php
-	
-		include('php/sessione.php');	//fa partire la sessione 
-	
+		
 	?>
 
 <html>
