@@ -44,6 +44,13 @@ a.loginRegistrati {
     text-align: center;
 }
 
+p.loginRegistrati {
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+    text-align: center;
+}
+
 /*liste non ordinate*/
 ul {
     list-style-type: none;
