@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 
 	<?php
-	
-		include('php/sessione.php');	//fa partire la sessione 
-	
+		
 	?>
 
 <html>
@@ -33,7 +31,7 @@
 				
 				<?php include('view/colonnaSinistra.php'); ?>
 				<?php include('view/colonnaDestra.php'); ?>
-				<?php include('view/home.php'); ?>
+				<?php include('view/help.php'); ?>
 
 				</div>
 		</div>
