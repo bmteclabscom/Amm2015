@@ -25,7 +25,7 @@ p#menu {
 
 /**colore dei link*/
 
-a.testoUp, .loginRegistrati {
+a.testoUp {
 	font-weight: bold;
 	color: white;
 	text-decoration: none;
@@ -35,6 +35,13 @@ a.testoUp, .loginRegistrati {
 a.testoUp:hover , .loginRegistrati:hover{
 	font-weight: bold;
 	color: #89CFF0; /**azzurro */
+}
+
+.loginRegistrati {
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+    text-align: center;
 }
 
 /*liste non ordinate*/
