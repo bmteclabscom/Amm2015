@@ -1,7 +1,7 @@
 <div class='centro'> 
 	
 	
-	<p><br/>GoodStore.net</p> 
+	<h3>Offerta del giorno</h3> 
 
 
 </div>
