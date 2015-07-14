@@ -14,7 +14,7 @@
 	while($row = mysql_fetch_array($result)){   	//forma la tabella finché ci sono oggetti nel database
 		
 		echo "<tr><td>" . $row['articoli.nome'] . "</td><td>" . $row['articoli.articoli.descrizione'] .
-			"</td><td>" . $row['prezzo'] . "</td><td>" . $row['elettronica.marcasc'] ."</td></tr>";  
+			"</td><td>" . $row['prezzo'] . "</td><td>" . $row['elettronica.marca'] ."</td></tr>";  
 	
 	}
 
