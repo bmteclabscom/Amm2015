@@ -59,7 +59,7 @@ img#bannerSito {
 
 div.help, div.centro {
 	padding-top: 10px;	//servono per gli elementi parenti
-	margin-left: 10px;
+	padding-left: 1220px;
 	margin-right: 10px;
 	margin-bottom: 10px;
 }
