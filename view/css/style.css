@@ -30,7 +30,6 @@ div.testata {
 .colonnaSinistra, .colonnaDestra {
 	width:200px;
 	height:100%;
-	position: fixed;
 }
 	
 .colonnaSinistra {
