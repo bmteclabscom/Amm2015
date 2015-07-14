@@ -31,7 +31,7 @@
 				
 				<?php include('view/colonnaSinistra.php'); ?>
 				<?php include('view/colonnaDestra.php'); ?>
-				<?php include('view/store.php'); ?>
+				<?php include('view/lostore.php'); ?>
 
 				</div>
 		</div>
