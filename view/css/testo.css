@@ -6,6 +6,12 @@ p {
 	font-size: 14px;
 }
 
+h3 {
+
+	font-family: "Arial", sans;
+
+}
+
 p#footerText {
 	color: black;
 	font-family: "Arial", sans;

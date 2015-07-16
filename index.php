@@ -35,8 +35,8 @@
 				<?php include('view/colonnaDestra.php'); ?>
 				<?php include('view/home.php'); ?>
 
-				</div>
-		</div>
+				</div>	<!--chiusura class colonne -->
+		</div>	<!--chiusura class homepage-->
 		
 		<!-- visualizzazione del footer -->
 		<?php include('view/footer.php'); ?>
