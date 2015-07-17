@@ -15,7 +15,6 @@
 			<input class='loginBotton' type='submit' name='login' value='Accedi'>
 		</p>
 		
-		<? include("../php/login_validation.php"); ?>	//conferma il login
 		
 	</form>
 </div>
