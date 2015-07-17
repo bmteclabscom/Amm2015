@@ -1,7 +1,6 @@
 <?php 
 
-	$connection = mysql_connect('localhost', 'root', 'davide'); //apre la connessione col database
-	mysql_select_db('database1');	
+	include("connessioneDatabase.php");	//stabilisce la connessione al database
 
 	$query = "SELECT * FROM articoli"; 	//seleziona tutti gli oggetti
 	$result = mysql_query($query);		//risultati della ricerca

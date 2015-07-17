@@ -1,6 +1,11 @@
 <?
+	/**connessione universale al database
+	 * la chiusura deve essere gestita autonomamente
+	 * */
+	 
+	$mysqli = new mysqli(); 	//
 
-	$connection = mysql_connect('localhost', 'root', 'davide'); //apre la connessione col database
-	mysql_select_db('database1');
+	$mysqli->connect("localhost", "root", "davide", "database1"); //apre la connessione col database
+
 	
 ?>
