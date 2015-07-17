@@ -66,5 +66,7 @@ div.help, div.centro {
 
 p.loginForm {
 
+	margin: auto;
+	padding: 10px;
 	position: center;
 }
