@@ -2,6 +2,12 @@
 
 	include("connessioneDatabase.php");	//stabilisce la connessione al database
 
+	if(is_null($_POST["username"])){
+		
+		echo "error";
+	
+	} else {
+
 	$query = "SELECT * FROM articoli"; 	//seleziona tutti gli oggetti
 	$result = mysql_query($query);		//risultati della ricerca
 
@@ -15,7 +21,9 @@
 	}
 
 	echo "</table>"; //chiude la tabella
-
+	
+	}
+	
 	mysql_close(); 	//chiude la connessione 
 
 ?>
