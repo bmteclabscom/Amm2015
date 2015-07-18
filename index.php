@@ -26,20 +26,20 @@
 
 		<div class='homepage'>
 			
-				<?php include('view/testata.php'); ?>
+				<?php require('view/testata.php'); ?>
 
 		
 			<div class='colonne'>
 				
-				<?php include('view/colonnaSinistra.php'); ?>
-				<?php include('view/colonnaDestra.php'); ?>
-				<?php include('view/login.php'); ?>
+				<?php require('view/colonnaSinistra.php'); ?>
+				<?php require('view/colonnaDestra.php'); ?>
+				<?php require('view/login.php'); ?>
 
 				</div>	<!--chiusura class colonne -->
 		</div>	<!--chiusura class homepage-->
 		
 		<!-- visualizzazione del footer -->
-		<?php include('view/footer.php'); ?>
+		<?php require('view/footer.php'); ?>
 
 
 	</body> 
