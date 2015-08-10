@@ -2,10 +2,6 @@
 
 	<? 
 		include("controls/classePartita.php");
-<<<<<<< HEAD
-		
-=======
->>>>>>> b5b66485ebed11d6d61751459677d4ad8749207a
 		$partita = new Partita($_POST["user"]);
 	
 	?>
