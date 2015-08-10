@@ -1,14 +1,14 @@
-@media all and (width: 800px) and (height: 400px) {
+/*@media all and (width: 800px) and (height: 400px) {
   #menubar  {
     display:block;
     background-color:#1560BD;
   }
-}
+}*/
 
 .homepage {
 
 	background-color:#1560BD;
-	width:600px; //altezza
-	height: 800px;	//larghezza
+	width:600px; /*altezza*/
+	height: 800px;	/*larghezza*/
 	position: center; 
 }
