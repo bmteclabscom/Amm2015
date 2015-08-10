@@ -29,7 +29,7 @@
 					<p class='loginForm'>
 						
 						<label>Username: 
-							<input type='text' name='username' placeholder='Username' maxlength='15' title="Inserisci l' username" required>
+							<input type='text' name='user' placeholder='Username' maxlength='15' title="Inserisci l' username" required>
 						</label> <br>
 						
 						<label>Password: 
