@@ -24,7 +24,7 @@
 		
 			<div class='login'>
 				
-				<form class="form" action="" method="POST">
+				<form class="form" action="game.php" method="POST">
 		
 					<p class='loginForm'>
 						
