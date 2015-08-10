@@ -30,9 +30,11 @@
 		
 			<div class='colonna'>
 				
-				<img id="insertCoinPic" src="images/insert.png"> </br>
-				
-				<img id="levaPic" src="images/leva01.png" onclick="levaMove()">
+                            <img id="insertCoinPic" src="images/insert.png"> </br>
+
+                            <img id="levaPic" src="images/leva0.png" onclick="levaMove()">
+                            
+                            <script src="controls/javascript/levaMove.js"></script>
 
 				</div>	<!--chiusura class colonne -->
 
