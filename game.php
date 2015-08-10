@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 	<? 
-		
+		include("controls/classePartita.php");
 		$partita = new Partita($_POST["user"]);
 	
 	?>
