@@ -5,12 +5,13 @@
 	width: 800px;   /*larghezza*/
 	height: 600px;	 /*altezza*/
 	position: absolute;
-        left: 20%;
+    text-align: center;
 
 }
 
-.banner {
+#banner {
     
-    
+    text-align: center;
+
 
 }
