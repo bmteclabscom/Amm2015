@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 
+	<? 
+		
+		$partita = new Partita($_POST["user"]);
+	
+	?>
 
 <html>
 
@@ -24,6 +29,7 @@
 			<p></p>
 		
 			<div class='colonna'>
+				
 				
 
 				</div>	<!--chiusura class colonne -->
