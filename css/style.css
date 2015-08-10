@@ -1,0 +1,6 @@
+@media all and (width: 800px) and (height: 400px) {
+  #menubar  {
+    display:block;
+    background-color:#1560BD;
+  }
+}
