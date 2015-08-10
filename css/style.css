@@ -15,3 +15,22 @@
 
 
 }
+
+div.login {
+    
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+p.loginForm {
+    
+    color: white;
+    font-family: "Arial";
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    
+}

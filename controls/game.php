@@ -1,7 +1,5 @@
 <?php
 
-	//$partita = new Partita();
-
 	$partita->gioco();	//estrae i numeri a caso
 
 	$checkCaselle = $partita->getCaselle();		//passo i risultati per l'analisi

@@ -22,7 +22,7 @@
                     
 			<p></p>
 		
-			<div class='login'>
+                        <div class='login'>
 				
 				<form class="form" action="game.php" method="POST">
 		
@@ -33,7 +33,7 @@
 						</label> <br>
 						
 						<label>Password: 
-							<input class='passwordForma' type='password' placeholder='Password' name='password' maxlength='20' title='Inserisci la password' required>
+							<input class='passwordForm' type='password' placeholder='Password' name='password' maxlength='20' title='Inserisci la password' required>
 						</label><br>
 						
 						<input class='loginBotton' type='submit' name='login' value='Accedi'>
