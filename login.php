@@ -44,6 +44,8 @@
 
 			</div>	<!--chiusura class colonne -->
 
+                        <img id="disclaimer" src="images/giocoresponsabile.jpg">
+                        
 		</div>	<!--chiusura class homepage-->
 		
 		<!-- visualizzazione del footer -->
