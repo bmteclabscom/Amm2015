@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 
 	<? 
+            if (isset($_POST["user"])){
 		include("controls/classePartita.php");
 		$partita = new Partita($_POST["user"]);  //a seconda dell'utente da determinate monete
-	?>
+            } else 
+                exit("Non hai i permessi per accedere a questa pagina");
+        ?>
 
 <html>
 
@@ -43,25 +46,9 @@
 
                     <p id="score" >Coins: <?= $partita->getCoins() ?></p>
 
-                    <div class='caselle'>
+                    <? include("views/caselle.php"); ?>
                     
-                        <img id="casella1" src="images/caselle/default.png" >    
-                        <img id="casella2" src="images/caselle/default.png" >
-                        <img id="casella3" src="images/caselle/default.png" >
-
-                        </br>
-                    
-                    </div>
-                    
-			<div class='colonna'>
-				
-                            <img id="insertCoinPic" src="images/insert.png" onclick="coinInserted()"> </br>
-                            <script src="controls/javascript/coinInserted.js"></script>
-
-                            <img id="levaPic" src="images/leva0.png" onclick="levaMove()">
-                            <script src="controls/javascript/levaMove.js"></script>
-
-			</div>	<!--chiusura class colonne -->
+                    <? include("views/colonna.php"); ?>
 
 		</div>	<!--chiusura class homepage-->
 		
