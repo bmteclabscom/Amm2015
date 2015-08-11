@@ -18,7 +18,7 @@
 
 		<div class='homepage'>
 			
-                    <img id="banner" src="images/unicacasino700.png">
+                    <img id="banner" src="images/unicacasino700.png" alt="UniCasino banner">
                     
 			<p></p>
 		
@@ -44,7 +44,7 @@
 
 			</div>	<!--chiusura class login -->
 
-                        <img id="disclaimer" src="images/giocoresponsabile.jpg"> <!--immagine sul gioco d'azzardo-->
+                        <img id="disclaimer" src="images/giocoresponsabile.jpg" alt="Banner gioco d'azzardo"> <!--immagine sul gioco d'azzardo-->
                         
 		</div>	<!--chiusura class homepage-->
 		

@@ -33,7 +33,7 @@
 	
             <div class='homepage'>
 			
-                    <img id="banner" src="images/unicacasino700.png">
+                    <img id="banner" src="images/unicacasino700.png" alt="UniCAsino banner">
                     
                     </br>
                     
