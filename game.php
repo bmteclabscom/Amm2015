@@ -2,8 +2,7 @@
 
 	<? 
 		include("controls/classePartita.php");
-		$partita = new Partita($_POST["user"]);
-                $totalCoins = $partita->getCoins(); //a seconda dell'utente da determinate monete
+		$partita = new Partita($_POST["user"]);  //a seconda dell'utente da determinate monete
 	?>
 
 <html>
@@ -30,7 +29,19 @@
                     <img id="banner" src="images/unicacasino700.png">
                     
                     </br>
-                    <p class="score" >Coins: <?=$totalCoins ?></p>
+                    
+                    <script>
+                        
+                        totalCoins = <?php echo $partita->getCoins() ; ?>; 
+                        
+                    /*questa riga non è bellissima da vedere, 
+                     * ma è l'implementazione quick&dirt perfetta per ricavare il numero di monete a dispozione
+                     * Per la mia gioia è persino una implementazione non sicura 
+                     * 
+                        */
+                    </script>
+                    
+                    <p id="score" >Coins: <?= $partita->getCoins() ?></p>
 		
                     <img id="casella1" src="images/caselle/default.png" >    
                     <img id="casella2" src="images/caselle/default.png" >

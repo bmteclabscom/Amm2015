@@ -74,29 +74,39 @@
                     case 1:  $("div.homepage").css("background-color", " #1560BD"); //fenu rimette tutto a posto!
                         alert("Fenu gives you 15 coins!");
                         totalCoins += 15;
+                        aggiornaMonete();
                         break;
+                        
                     case 2: $("div.homepage").css("background-color", "white");
                         alert("OMG IT'S TODOR! He just whitelized your blackboard and stole you 5 coins!");
                         totalCoins -= 5;
+                        aggiornaMonete();
                         break;
+                        
                     case 3:  
                         alert("Scateni wants to play Pong! But he gives you 10 coins");
                         totalCoins += 10;
+                        aggiornaMonete();
                         break;
+                        
                     case 4:  
                         alert("OMG Bartoletti just hacked the system and gives you 200 coins!");
                         totalCoins += 200;
+                        aggiornaMonete();
                         break;
+                        
                     case 5:  
                         alert("Atzori won the Google Prize! And gives you 5 coins");
                         totalCoins += 5;
+                        aggiornaMonete();
                         break;
+                        
                 }
                 
             }
 
             
-            if (totalCoins === 0){
+            if (totalCoins === 0){  //se finisci le monete, game over
                 
                 alert("GAME OVER\nIl gioco &#232; vietato ai minori e pu&#242; causare dipendenza patologica");
             }
