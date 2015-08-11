@@ -3,7 +3,7 @@
 	<? 
 		include("controls/classePartita.php");
 		$partita = new Partita($_POST["user"]);
-	
+                $totalCoins = $partita->getCoins(); //a seconda dell'utente da determinate monete
 	?>
 
 <html>
@@ -21,13 +21,22 @@
 	</head>
 
 	<body>
-
-		<div class='homepage'>
+            
+            <script src="controls/javascript/startGame.js"></script>
+	
+            <div class='homepage'>
 			
                     <img id="banner" src="images/unicacasino700.png">
                     
-			<p></p>
+                    </br>
+                    <p class="score" >Coins: <?=$totalCoins ?></p>
 		
+                    <img id="casella1" src="images/caselle/default.png" >    
+                    <img id="casella2" src="images/caselle/default.png" >
+                    <img id="casella3" src="images/caselle/default.png" >
+                    
+                    </br>
+                    
 			<div class='colonna'>
 				
                             <img id="insertCoinPic" src="images/insert.png" onclick="coinInserted()"> </br>

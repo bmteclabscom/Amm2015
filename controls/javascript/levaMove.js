@@ -2,9 +2,105 @@
     /**abbassa la leva al click*/
     function levaMove() {
         
-        var image = document.getElementById('levaPic');
+        if (gameEnabled === true) {     //se il gioco non è avviato non puoi azionare la leva
         
-        if (image.src.match("images/leva0.png")) {
-            image.src = "images/leva1.png";
-        } 
+            var image = document.getElementById('levaPic');
+
+            if (image.src.match("images/leva0.png")) {
+                image.src = "images/leva1.png";
+            } 
+
+            var casella1, casella2, casella3;   //variabili che definiscono il valore random
+
+            //genero valori casuali
+            casella1 = Math.floor((Math.random() * 5) + 1 );
+            casella2 = Math.floor((Math.random() * 5) + 1 );
+            casella3 = Math.floor((Math.random() * 5) + 1 );
+
+            //collego il codice all' html
+            var pic1 = document.getElementById('casella1');
+            var pic2 = document.getElementById('casella2');
+            var pic3 = document.getElementById('casella3');
+
+            /**a seconda dei numeri estratti posiziono le immagini nelle caselle*/
+            switch (casella1) {
+
+                case 1: pic1.src = "images/caselle/gianni.png";
+                    break;
+                case 2: pic1.src = "images/caselle/todor.png";
+                    break;
+                case 3: pic1.src = "images/caselle/riccardone.png";
+                    break;
+                case 4: pic1.src = "images/caselle/massimo.jpg";
+                    break;
+                case 5: pic1.src = "images/caselle/maurizio.png";
+                    break;
+            }
+
+            switch (casella2) {
+
+                case 1: pic2.src = "images/caselle/gianni.png";
+                    break;
+                case 2: pic2.src = "images/caselle/todor.png";
+                    break;
+                case 3: pic2.src = "images/caselle/riccardone.png";
+                    break;
+                case 4: pic2.src = "images/caselle/massimo.jpg";
+                    break;
+                case 5: pic2.src = "images/caselle/maurizio.png";
+                    break;
+            }
+
+            switch (casella3) {
+
+                case 1: pic3.src = "images/caselle/gianni.png";
+                    break;
+                case 2: pic3.src = "images/caselle/todor.png";
+                    break;
+                case 3: pic3.src = "images/caselle/riccardone.png";
+                    break;
+                case 4: pic3.src = "images/caselle/massimo.jpg";
+                    break;
+                case 5: pic3.src = "images/caselle/maurizio.png";
+                    break;
+            }
+        
+            /**se dovessero esserci delle caselle uguali verranno assegnate delle monete
+             * come premio e in alcuni casi un easter egg*/
+            if (casella1 == casella2 && casella2 == casella3){
+                
+                switch (casella1) {
+
+                    case 1:  //$(".homepage").css("background-color", "white");
+                        alert("Fenu gives you 15 coins!");
+                        totalCoins =+ 15;
+                        break;
+                    case 2: //$(".homepage").css("background-color", "white");
+                        alert("OMG IT'S TODOR! He just whitelized your blackboard and stole 5 coins!");
+                        totalCoins =- 5;
+                        break;
+                    case 3:  //$(".homepage").css("background-color", "white");
+                        alert("Scateni wants to play Pong! But he gives you 10 coins");
+                        totalCoins =+ 10;
+                        break;
+                    case 4:  //$(".homepage").css("background-color", "white");
+                        alert("OMG Bartoletti just hacked the system and giver you 200 coins!");
+                        totalCoins =+ 200;
+                        break;
+                    case 5:  //$(".homepage").css("background-color", "white");
+                        alert("Atzori won the Google Prize! And gives you 5 coins");
+                        totalCoins =+ 5;
+                        break;
+                }
+                
+            }
+
+            
+            if (totalCoins === 0){
+                
+                alert("GAME OVER\nIl gioco &#232; vietato ai minori e pu&#242; causare dipendenza patologica");
+            }
+
+            gameEnabled = false;    //per continuare a giocare devi inserire monete!
+        }
     }
