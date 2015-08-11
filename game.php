@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 
 	<? 
+            //include("controls/loginCheck.php");
+        
             if (isset($_POST["user"])){
 		include("controls/classePartita.php");
 		$partita = new Partita($_POST["user"]);  //a seconda dell'utente da determinate monete
-            } else 
-                exit("Non hai i permessi per accedere a questa pagina");
+            } else {
+                //nel caso venga tentato un accesso alla pagina senza login la connessione viene interrotta
+                exit("Non hai i permessi per accedere a questa pagina");    
+            }
         ?>
 
 <html>

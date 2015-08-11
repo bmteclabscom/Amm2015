@@ -42,9 +42,9 @@
 					
 				</form>
 
-			</div>	<!--chiusura class colonne -->
+			</div>	<!--chiusura class login -->
 
-                        <img id="disclaimer" src="images/giocoresponsabile.jpg">
+                        <img id="disclaimer" src="images/giocoresponsabile.jpg"> <!--immagine sul gioco d'azzardo-->
                         
 		</div>	<!--chiusura class homepage-->
 		
