@@ -14,7 +14,8 @@
 		
 		<!-- selezione degli stili css-->
 		<link rel="stylesheet" type="text/css"	href="css/style.css" media="screen">	
-
+                
+                <script src="libs/jquery-2.1.4.js"></script> <!-- inserimento jquery -->
 
 		<title>UniCAsin&ograve; </title>  
 		

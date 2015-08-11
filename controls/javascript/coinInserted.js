@@ -2,7 +2,12 @@
     
     function coinInserted() {
         
-        if (gameEnabled === false && totalCoins > 0){
+        if (totalCoins <= 0){   //se non hai soldi non puoi giocare!
+            
+            alert("You've got no money!");
+        }
+        
+        if (gameEnabled === false && totalCoins > 0){   //se non hai già inserito monete e ne hai a disposizione, giochi
         
             var image = document.getElementById('levaPic');
             var coins = document.getElementById('insertCoinPic');

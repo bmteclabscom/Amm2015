@@ -71,25 +71,25 @@
                 
                 switch (casella1) {
 
-                    case 1:  //$(".homepage").css("background-color", "white");
+                    case 1:  $("div.homepage").css("background-color", " #1560BD"); //fenu rimette tutto a posto!
                         alert("Fenu gives you 15 coins!");
-                        totalCoins =+ 15;
+                        totalCoins += 15;
                         break;
-                    case 2: //$(".homepage").css("background-color", "white");
-                        alert("OMG IT'S TODOR! He just whitelized your blackboard and stole 5 coins!");
-                        totalCoins =- 5;
+                    case 2: $("div.homepage").css("background-color", "white");
+                        alert("OMG IT'S TODOR! He just whitelized your blackboard and stole you 5 coins!");
+                        totalCoins -= 5;
                         break;
-                    case 3:  //$(".homepage").css("background-color", "white");
+                    case 3:  
                         alert("Scateni wants to play Pong! But he gives you 10 coins");
-                        totalCoins =+ 10;
+                        totalCoins += 10;
                         break;
-                    case 4:  //$(".homepage").css("background-color", "white");
-                        alert("OMG Bartoletti just hacked the system and giver you 200 coins!");
-                        totalCoins =+ 200;
+                    case 4:  
+                        alert("OMG Bartoletti just hacked the system and gives you 200 coins!");
+                        totalCoins += 200;
                         break;
-                    case 5:  //$(".homepage").css("background-color", "white");
+                    case 5:  
                         alert("Atzori won the Google Prize! And gives you 5 coins");
-                        totalCoins =+ 5;
+                        totalCoins += 5;
                         break;
                 }
                 

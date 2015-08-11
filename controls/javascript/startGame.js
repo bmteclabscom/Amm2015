@@ -1,6 +1,5 @@
 
-
-    totalCoins = 5;
+    totalCoins = 55;
 
     gameEnabled = false;
     
