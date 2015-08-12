@@ -10,7 +10,7 @@
         if ($SVILUPPO === 1) {
             $conn = $mysqli->connect("localhost", "root", "davide", "unicasino"); //apre la connessione col locale
         } else {
-            $conn = $mysqli->connect("localhost", "manaiAlessio", "riccio7644", "amm2015_manaiAlessio"); //apre la connessione col database del server
+            $conn = $mysqli->connect("localhost", "manaiAlessio", "riccio7644", "amm15_manaiAlessio"); //apre la connessione col database del server
         }
         
         if ($mysqli->connect_errno){    //se la connessione da errore
