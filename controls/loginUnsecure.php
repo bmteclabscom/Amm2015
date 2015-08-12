@@ -14,11 +14,13 @@
 
     } else {	//altrimenti controlla se i valori corrispondono nel database
 
+        $result = $mysqli->query($loginQuery);
 
-        if ($mysqli->query($loginQuery) === FALSE){	//se la risposta è negativa
+        if ($result->num_rows != 1){	//se la risposta è negativa
 
             exit("Non hai i permessi per accedere a questa pagina");
         }
     }
         
+    $mysqli->close();   //chiude la connessione al database
 ?>
