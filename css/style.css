@@ -1,10 +1,10 @@
 
-body {
+body {  //lo stile per tutte le schermate: al centro della pagina
     
     text-align: center;
 }
 
-div.homepage {
+div.homepage {  //definisce lo stile della schermata blu principale
 
     background-color: #1560BD;
     width: 800px;   /*larghezza*/
@@ -14,7 +14,7 @@ div.homepage {
 
 }
 
-#score{
+#score{ //definisce lo stile della scritta "Coins" sotto il banner
     
     font-family: "Courier New", Courier, monospace;
     font-weight: bold;
@@ -23,11 +23,11 @@ div.homepage {
     
 }
 
-#banner {
+#banner {   //lo stile del banner "UniCAsinò"
     text-align: center;
 }
 
-div.login {
+div.login { //stile del riquadro del login
     
     position: relative;
     top: 70px;
@@ -35,7 +35,7 @@ div.login {
     
 }
 
-p.loginForm {
+p.loginForm {   //stile del form login
     
     color: white;
     font-family: "Arial";
@@ -45,7 +45,7 @@ p.loginForm {
     
 }
 
-.colonna {
+.colonna {  //definisce la colonna contenente il bottone per l' inserimento dei gettoni e la leva
     
     width: 300px;   /*larghezza*/
     height: 90px;	 /*altezza*/
@@ -55,21 +55,21 @@ p.loginForm {
     
 }
 
-#insertCoinPic {
+#insertCoinPic {    //stile del bottone dei gettoni
     
     position: relative;
     bottom: 10px;
 
 }
 
-.caselle {
+.caselle {  //disposizione della caselle random all'interno della slot machine
     
     position: relative;
     right: 50px;
     top: 60px;
 }
 
-#disclaimer {
+#disclaimer {   //banner AAMS nella schermata di login
     
     position: relative;
     top: 300px;
