@@ -1,10 +1,10 @@
 
-body {  //lo stile per tutte le schermate: al centro della pagina
+body {  /*lo stile per tutte le schermate: al centro della pagina*/
     
     text-align: center;
 }
 
-div.homepage {  //definisce lo stile della schermata blu principale
+div.homepage {  /*definisce lo stile della schermata blu principale*/
 
     background-color: #1560BD;
     width: 800px;   /*larghezza*/
@@ -14,7 +14,7 @@ div.homepage {  //definisce lo stile della schermata blu principale
 
 }
 
-#score{ //definisce lo stile della scritta "Coins" sotto il banner
+#score{ /*definisce lo stile della scritta "Coins" sotto il banner*/
     
     font-family: "Courier New", Courier, monospace;
     font-weight: bold;
@@ -23,11 +23,11 @@ div.homepage {  //definisce lo stile della schermata blu principale
     
 }
 
-#banner {   //lo stile del banner "UniCAsinò"
+#banner {   /*lo stile del banner "UniCAsinò"*/
     text-align: center;
 }
 
-div.login { //stile del riquadro del login
+div.login { /*stile del riquadro del login*/
     
     position: relative;
     top: 70px;
@@ -35,7 +35,7 @@ div.login { //stile del riquadro del login
     
 }
 
-p.loginForm {   //stile del form login
+p.loginForm {   /*stile del form login*/
     
     color: white;
     font-family: "Arial";
@@ -45,7 +45,7 @@ p.loginForm {   //stile del form login
     
 }
 
-.colonna {  //definisce la colonna contenente il bottone per l' inserimento dei gettoni e la leva
+.colonna {  /*definisce la colonna contenente il bottone per l' inserimento dei gettoni e la leva*/
     
     width: 300px;   /*larghezza*/
     height: 90px;	 /*altezza*/
@@ -55,21 +55,21 @@ p.loginForm {   //stile del form login
     
 }
 
-#insertCoinPic {    //stile del bottone dei gettoni
+#insertCoinPic {    /*stile del bottone dei gettoni*/
     
     position: relative;
     bottom: 10px;
 
 }
 
-.caselle {  //disposizione della caselle random all'interno della slot machine
+.caselle {  /*disposizione della caselle random all'interno della slot machine*/
     
     position: relative;
     right: 50px;
     top: 60px;
 }
 
-#disclaimer {   //banner AAMS nella schermata di login
+#disclaimer {   /*banner AAMS nella schermata di login*/
     
     position: relative;
     top: 300px;
