@@ -1,5 +1,7 @@
 <?php
 
+    /**loginUnsecure in quanto in questa funzione non ho sanitized l'input utente per il login*/
+
     include("connessioneDatabase.php");		//connessione al database 
 	
 
