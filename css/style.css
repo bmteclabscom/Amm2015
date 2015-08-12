@@ -47,9 +47,11 @@ p.loginForm {
 
 .colonna {
     
+    width: 300px;   /*larghezza*/
+    height: 90px;	 /*altezza*/
     position: relative;
-    top: -150px;
-    right: -300px;
+    bottom: 150px;
+    left: 560px;
     
 }
 
