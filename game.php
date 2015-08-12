@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 	<? 
-            include("controls/loginUnsecure.php");
+            include("controls/loginCheck.php");
         
             if (isset($_POST["user"])){
 		include("controls/classePartita.php");

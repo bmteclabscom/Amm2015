@@ -2,36 +2,37 @@
 
     include("connessioneDatabase.php");		//connessione al database 
 	
-    $preparedStatement = $mysqli->stmt_init();	//prepared statement per evitare accessi non autorizzati tramite SQLinjection
-
-    $loginQuery = "SELECT username, password FROM login WHERE user =? AND password =? ";	//query di verifica login
-
-    $preparedStatement->prepare($loginQuery);	// preparo lo statement per l'esecuzione
-
-    $user = $_POST["user"];
-    $passw = $_POST["password"];
+    
+    $user = $_POST["user"];     //netbeans rompeva le scatole per usare direttamente lo superglobal
+    $passw = $_POST["password"];    //così per farlo star zitto ho usato direttamente delle variabili
+    
+    $loginQuery = "SELECT username, password FROM login WHERE username =? AND password =? ";	//query di verifica login
+    
+    $preparedStatement = $mysqli->prepare($loginQuery);	//prepared statement per evitare accessi non autorizzati tramite SQLinjection
     
     $preparedStatement->bind_param("ss", $user, $passw); // collego i parametri della query con il loro tipo
 
 
     if(empty($user) || empty($passw) ){	//se i campi sono vuoti
 
-            echo "Username o password mancanti <br/>";
+            exit("Username o password mancanti");
 
     } else {	//altrimenti controlla se i valori corrispondono nel database
 
-            $accessoSito = mysql_query($preparedStatement->execute());	//esegui la query
+            $preparedStatement->execute();	//esegui la query
 
+            $preparedStatement->bind_result($user, $passw);
+            
+            $preparedStatement->store_result();
+            
+            $accessoSito = $preparedStatement->num_rows;
 
-            if ($result > 0){	//se la risposta è affermativa
+            if ($accessoSito != 1){	//se la risposta è negativa
 
-                    //echo "Accesso effettuato come ";
-
-            } else {
-                    exit("Non hai i permessi per accedere a questa pagina");
+                exit("Non hai i permessi per accedere a questa pagina");    //chiude la connessione al sito
             }
         }
 
-    mysql_close(); 	//chiude la connessione 
+    $mysqli->close();   //chiude la connessione al database
 
 ?>
