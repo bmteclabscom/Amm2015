@@ -1,11 +1,16 @@
 
+body {
+    
+    text-align: center;
+}
+
 div.homepage {
 
     background-color: #1560BD;
     width: 800px;   /*larghezza*/
     height: 600px;	 /*altezza*/
-    position: absolute;
     text-align: center;
+    margin: 0 auto;
 
 }
 
@@ -19,10 +24,7 @@ div.homepage {
 }
 
 #banner {
-    
     text-align: center;
-
-
 }
 
 div.login {
@@ -45,9 +47,9 @@ p.loginForm {
 
 .colonna {
     
-    position: absolute;
-    bottom: 20px;
-    right: 15px;
+    position: relative;
+    top: -150px;
+    right: -300px;
     
 }
 
