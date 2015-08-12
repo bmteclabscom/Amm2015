@@ -1,4 +1,7 @@
 <?php
+    
+    /**codice anti SQL injection per il login all' applicazione*/
+
 
     include("connessioneDatabase.php");		//connessione al database 
 	
@@ -21,15 +24,20 @@
 
             $preparedStatement->execute();	//esegui la query
 
-            $preparedStatement->bind_result($user, $passw);
+            $preparedStatement->bind_result($user, $passw); 
             
             $preparedStatement->store_result();
             
-            $accessoSito = $preparedStatement->num_rows;
+            $accessoSito = $preparedStatement->num_rows;    //ottengo il numero di corrispondenze trovate
 
             if ($accessoSito != 1){	//se la risposta è negativa
 
-                exit("Non hai i permessi per accedere a questa pagina");    //chiude la connessione al sito
+                $mysqli->close();
+                
+                exit("Non hai i permessi per accedere a questa pagina <br/> <br/>"
+                        . "Se invece hai tentato una SQL injection mi spiace per te "
+                        . "ma sono un fissato di sicurezza informatica <br/>"
+                        . "Se comunque dovessi trovare delle falle mi piacerebbe venirne a conoscenza &#9786;");    //chiude la connessione al sito
             }
         }
 

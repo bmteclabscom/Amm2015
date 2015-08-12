@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 	<? 
-            include("controls/loginCheck.php");
+            include("controls/loginCheck.php");     //effettua un controllo sui dati login
         
             if (isset($_POST["user"])){
 		include("controls/classePartita.php");
@@ -50,9 +50,9 @@
 
                     <p id="score" >Coins: <?= $partita->getCoins() ?></p>
 
-                    <? include("views/caselle.php"); ?>
+                    <? include("views/caselle.php"); ?>     <!--visualizza le caselle della slot machine-->
                     
-                    <? include("views/colonna.php"); ?>
+                    <? include("views/colonna.php"); ?>     <!-- visualizza la fessura e la manopola -->
 
 		</div>	<!--chiusura class homepage-->
 		

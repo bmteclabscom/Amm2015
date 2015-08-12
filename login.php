@@ -22,27 +22,7 @@
                     
 			<p></p>
 		
-                        <div class='login'>
-				
-				<form class="form" action="game.php" method="POST">
-		
-					<p class='loginForm'>
-						
-						<label>Username: 
-							<input type='text' name='user' placeholder='Username' maxlength='15' title="Inserisci l' username" required>
-						</label> <br>
-						
-						<label>Password: 
-							<input class='passwordForm' type='password' placeholder='Password' name='password' maxlength='20' title='Inserisci la password' required>
-						</label><br>
-						
-						<input class='loginBotton' type='submit' name='login' value='Accedi'>
-					</p>
-					
-					
-				</form>
-
-			</div>	<!--chiusura class login -->
+                        <? include("views/login.php"); ?>  <!--form per il login -->
 
                         <img id="disclaimer" src="images/giocoresponsabile.jpg" alt="Banner gioco d'azzardo"> <!--immagine sul gioco d'azzardo-->
                         
