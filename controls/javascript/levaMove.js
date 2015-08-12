@@ -108,7 +108,7 @@
             
             if (totalCoins === 0){  //se finisci le monete, game over
                 
-                alert("GAME OVER\nIl gioco &#232; vietato ai minori e pu&#242; causare dipendenza patologica");
+                alert("GAME OVER\nIl gioco \xE8 vietato ai minori e pu\xF2 causare dipendenza patologica");
             }
 
             gameEnabled = false;    //per continuare a giocare devi inserire monete!
