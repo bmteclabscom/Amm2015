@@ -75,3 +75,22 @@ p.loginForm {   /*stile del form login*/
     top: 300px;
     
 }
+
+
+.elencoPunteggi { /*definisce lo stile del' elenco dei punteggi*/
+    
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 25px;
+    color: yellow;
+    
+}
+
+.scoreForm { /*definisce lo stile del form per l'invio dei punteggi'*/
+    
+    text-align: center;
+    color: white;
+    
+}
