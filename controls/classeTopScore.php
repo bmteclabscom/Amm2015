@@ -57,16 +57,9 @@
             
             $stmt = $mysqli->prepare($query);
             
-            $stmt->bind_param("ss", $_POST["nomeScorer"], $_POST["punteggioMonete"]);
+            $stmt->bind_param("si", $_POST["nomeScorer"], $_POST["punteggioMonete"]);
             
             $stmt->execute();
-            
-        }
-        
-        /**prende il valore della monete da javascript*/
-        public function getMoneteFromJS(){
-            
-            
             
         }
         
