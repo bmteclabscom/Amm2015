@@ -4,6 +4,16 @@ body {  /*lo stile per tutte le schermate: al centro della pagina*/
     text-align: center;
 }
 
+footer {
+        
+    text-align: center;
+    height: 10px;
+    bottom: 30px;
+    font-size: 12px;
+    font-family: "Courier New", Courier, monospace;
+
+}
+
 div.homepage {  /*definisce lo stile della schermata blu principale*/
 
     background-color: #1560BD;
@@ -93,4 +103,17 @@ p.loginForm {   /*stile del form login*/
     text-align: center;
     color: white;
     
+}
+
+#goToScore, #aboutMe {
+    
+    text-decoration: none;
+
+}
+
+#goToScore:hover, #aboutMe:hover {
+    
+    text-decoration: underline;
+    color: red;
+
 }

@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 
 	<? 
-            /*if(!isset($_POST["user"]) || !isset($_POST["password"]) ){	//se si tenta di accedere direttamente alla pagina
-
-                exit("Non hai i permessi per accedere a questa pagina");
-
-            }*/
-        
             include("controls/classeTopScore.php");
             $topPunteggi = new TopScore();  //crea la variabile per i punteggi
         ?>

@@ -57,7 +57,7 @@
 		</div>	<!--chiusura class homepage-->
 		
 		<!-- visualizzazione del footer -->
-
+            <? include("views/footer.php");?>
 
 	</body> 
 	 
