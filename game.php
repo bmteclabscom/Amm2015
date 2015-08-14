@@ -2,7 +2,9 @@
 
 	<? 
             session_start();
-        
+                        
+            include("controls/notSetUser.php");
+
         ?>
 
 <html>

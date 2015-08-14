@@ -3,7 +3,7 @@
 	 * la chiusura deve essere gestita autonomamente
 	 * */
 	 
-        $SVILUPPO = 0;
+        $SVILUPPO = 1;
 
 	$mysqli = new mysqli(); 	//crea una variabile mysqli
 

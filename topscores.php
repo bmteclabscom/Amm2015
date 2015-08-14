@@ -3,11 +3,7 @@
 	<? 
             session_start();
         
-             if (!isset($_SESSION["user"])){
-                
-                exit();
-                 
-             }
+            include("controls/notSetUser.php");
             
             $_SESSION["monete"] = $_GET['monete']; 
              
