@@ -3,9 +3,8 @@
 	 * la chiusura deve essere gestita autonomamente
 	 * */
 	 
-        $SVILUPPO = 0;
+        $SVILUPPO = 1;
 
-        
 	$mysqli = new mysqli(); 	//crea una variabile mysqli
 
         if ($SVILUPPO === 1) {  //se sto sviluppando, si logga al database della macchina virtuale

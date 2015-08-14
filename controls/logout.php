@@ -18,7 +18,7 @@
         
         session_destroy();
         
-        echo '<META HTTP-EQUIV="Refresh" Content="0; URL=login.php">';
+        echo '<META HTTP-EQUIV="Refresh" Content="0; URL=../login.php">';
     }
 
 ?>

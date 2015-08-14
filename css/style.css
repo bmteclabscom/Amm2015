@@ -105,15 +105,15 @@ p.loginForm {   /*stile del form login*/
     
 }
 
-#goToScore, #aboutMe {
+#goToScore, #aboutMe, #logoutExit {
     
-    text-decoration: none;
+    text-decoration: none;      /*tolgo la sottolineatura dai link*/
 
 }
 
-#goToScore:hover, #aboutMe:hover {
+#goToScore:hover, #aboutMe:hover, #logoutExit:hover {
     
-    text-decoration: underline;
+    text-decoration: underline;     /**sottolineo i link al passaggio del mouse e li coloro di rosso*/
     color: red;
 
 }
