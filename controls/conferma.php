@@ -1,6 +1,6 @@
 <?
     
     //echo $partita->getCoins() ;
-    echo $_GET["monete"];
+    echo $_SESSION["user"];
 
 ?>

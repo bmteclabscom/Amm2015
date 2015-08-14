@@ -37,6 +37,12 @@
                         . "ma sono un fissato di sicurezza informatica <br/>"
                         . "Se comunque dovessi trovare delle falle nel progetto mi piacerebbe venirne a conoscenza &#9786;");    //chiude la connessione al sito
             }
+            
+            session_start();    //fa partire la sessione
+
+            $_SESSION["user"] = $user;
+            $_SESSION["password"] = $passw;
+            
         }
 
     $mysqli->close();   //chiude la connessione al database

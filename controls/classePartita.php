@@ -67,31 +67,31 @@
 		// 0
 		public function fenoo(){
 			
-			$this->coins =+ 15;
+			$this->coins += 15;
 		}
 		
 		//1
 		public function tothor(){
 			
-			$this->coins =- 5;
+			$this->coins -= 5;
 		}
 		
 		//2
 		public function scatenee(){
 			
-			$this->coins =+ 10;
+			$this->coins += 10;
 		}
 		
 		//3
 		public function bartawlettee(){
 			
-			$this->coins =+ 200;
+			$this->coins += 200;
 		}
 		
 		//4
 		public function atsawree(){
 			
-			$this->coins =+ 5;
+			$this->coins += 5;
 		}
 		
 		/***è giusto tornare il risultato della caselle dato che sono una variabile privata*/

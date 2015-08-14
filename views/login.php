@@ -1,6 +1,6 @@
 <div class='login'>
 
-    <form class="form" action="game.php" method="POST">
+    <form class="form" action="redirect.php" method="POST">
 
             <p class='loginForm'>
 

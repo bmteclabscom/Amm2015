@@ -1,15 +1,8 @@
 <!DOCTYPE html>
 
 	<? 
-            include("controls/loginCheck.php");     //effettua un controllo sui dati login
+            session_start();
         
-            if (isset($_POST["user"])){
-		include("controls/classePartita.php");
-		$partita = new Partita($_POST["user"]);  //a seconda dell'utente da determinate monete
-            } else {
-                //nel caso venga tentato un accesso alla pagina senza login la connessione viene interrotta
-                exit("Non hai i permessi per accedere a questa pagina");    
-            }
         ?>
 
 <html>
@@ -39,7 +32,7 @@
                     
                     <script>
                         
-                        totalCoins = <?php echo $partita->getCoins() ; ?>; 
+                        totalCoins = <?php echo $_SESSION["monete"] ; ?>; 
                         
                     /*questa riga non è bellissima da vedere, 
                      * ma è l'implementazione quick&dirt perfetta per ricavare il numero di monete a dispozione
@@ -48,7 +41,7 @@
                         */
                     </script>
 
-                    <p id="score" >Coins: <?= $partita->getCoins() ?></p>
+                    <p id="score" >Coins: <?= $_SESSION["monete"] ?></p>
 
                     <? include("views/caselle.php"); ?>     <!--visualizza le caselle della slot machine-->
                     

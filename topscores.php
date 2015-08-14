@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 
 	<? 
+            session_start();
+        
+             if (!isset($_SESSION["user"])){
+                
+                exit();
+                 
+             }
+            
+            $_SESSION["monete"] = $_GET['monete']; 
+             
             include("controls/classeTopScore.php");
             $topPunteggi = new TopScore();  //crea la variabile per i punteggi
         ?>
