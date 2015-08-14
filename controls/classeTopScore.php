@@ -15,23 +15,23 @@
             
             include("connessioneDatabase.php"); //connette al database
             
-            $query = "SELECT user, score FROM topscore ORDER BY score DESC LIMIT 5";
+            $query = "SELECT user, score FROM topscore ORDER BY score DESC LIMIT 5";    //query di ricerca
             
-            $risultato = $mysqli->query($query); 
+            $risultato = $mysqli->query($query);    //ottengo i risultati della query
             
             echo "<br/>Top Scores <br/>";
             
-            if ($mysqli->errno > 0){
+            if ($mysqli->errno > 0){    //se il database da errore
                 
                 echo "Non è possibile visualizzare attualmente i punteggi";
                 
             }
             
-            if ($risultato->num_rows === 0){
+            if ($risultato->num_rows === 0){    //se non sono presenti punteggi
                 
                 echo "Non sono presenti ancora punteggi";
                 
-            } else {
+            } else {    //altrimenti carica i risultati e li mostra con un elenco puntato
                 
                 echo "<ol> \n";
                 
@@ -44,7 +44,7 @@
                 echo "</ol> \n";
             }
             
-            $mysqli->close();
+            $mysqli->close();   //chiude la connesione al database
             
         }
         
@@ -79,7 +79,7 @@
             $deleteQuery = "DELETE FROM topscore ORDER BY score LIMIT 1";   //elimino la riga col punteggio più basso
             
             
-            $numeroRighe = mysqli_num_rows($mysqli->query($checkQuery));
+            $numeroRighe = mysqli_num_rows($mysqli->query($checkQuery));    //ottengo il numero di righe della tabella selezionata
             
             $mysqli->autocommit(false); //disattivo l'autocommit per la transazione
             
@@ -137,7 +137,6 @@
         }
         
     }
-
 
 
 ?>

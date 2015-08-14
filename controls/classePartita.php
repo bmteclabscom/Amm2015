@@ -16,7 +16,7 @@
                             $this->coins = 999;
                         }
 			else {
-				$this->coins = 3;	//altrimenti rimani pezzente e giochi con tre monete
+				$this->coins = 5;	//altrimenti rimani pezzente e giochi con tre monete
                         }
                         
 			$this->caselle = array(-1, -1, -1); //inizializza lo schermo con le immagini di default
@@ -35,7 +35,7 @@
 			if ($user == "admin")	//se sei admin, c'è un motivo!
 				$this->coins = 999;
 			else
-				$this->coins = 3;	//altrimenti rimani pezzente e giochi con tre monete
+				$this->coins = 5;	//altrimenti rimani pezzente e giochi con tre monete
 				
 			$this->caselle = array(-1, -1, -1); //inizializza lo schermo con le immagini di default
 		}
