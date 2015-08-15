@@ -16,7 +16,7 @@
                                    value="<?php echo htmlspecialchars($_GET['monete']); ?>" maxlength='20' title='Inserisci la password' required readonly>
                     </label><br/><br/>
 
-                    <input class='loginBotton' type='submit' name='login' value='Invia punteggio'>
+                    <input class='loginBotton' type='submit' name='sendR' value='Invia punteggio'>
             </p>
 
     </form>
