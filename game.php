@@ -3,7 +3,7 @@
 	<? 
             session_start();
                         
-            include("controls/notSetUser.php");
+            include("controls/notSetUser.php");     //se non sei loggato non puoi accedere
 
         ?>
 
