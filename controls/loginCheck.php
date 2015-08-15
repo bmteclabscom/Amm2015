@@ -32,6 +32,8 @@
 
                 $mysqli->close();
                 
+                echo '<title>Connessione rifiutata </title>';
+                
                 exit("Non hai i permessi per accedere a questa pagina <br/> <br/>"
                         . "Se invece hai tentato una SQL injection mi spiace per te "
                         . "ma sono un fissato di sicurezza informatica <br/>"
