@@ -1,5 +1,16 @@
 <!DOCTYPE html>
 
+    <?
+        session_start();
+    
+        if (isset($_SESSION["user"]) && isset($_SESSION["password"])){  //se ti sei già loggato
+            
+            echo '<META HTTP-EQUIV="Refresh" Content="0; URL=game.php">';   //vai alla pagina del gioco
+            
+        }
+    
+    ?>
+
 <html>
 
 	<head>

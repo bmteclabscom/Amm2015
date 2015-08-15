@@ -122,5 +122,7 @@ p.loginForm {   /*stile del form login*/
         
     color: white;
     font-family: "Arial";
+    margin-left: 10px;
+    margin-right: 10px;
     
 }

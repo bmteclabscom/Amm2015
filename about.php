@@ -32,9 +32,15 @@
                     
 			<p></p>
 		
-                        <div id="changeText"> </div>
+                        <div id="changeText"> 
+                            <p>
+                                L' idea della slot machine nasce dopo la discussione sul progetto con un collega, 
+                                ancora non 
+                            </p>
                         
-                        <button id="plsClick">Please don't click me</button>
+                        </div>
+                        
+                        <button id="plsClick">Ulteriori dettagli</button>
                         
 		</div>	<!--chiusura class homepage-->
 		
