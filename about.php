@@ -17,7 +17,9 @@
 		<!-- selezione degli stili css-->
 		<link rel="stylesheet" type="text/css"	href="css/style.css" media="screen">	
 
-
+                <script src="libs/jquery-2.1.4.js"></script> <!-- inserimento jquery -->
+                <script src="controls/javascript/ajax.js"></script> <!-- inserimento ajax -->
+                
 		<title>About - UniCAsin&ograve; </title>  
 		
 	</head>
@@ -30,7 +32,9 @@
                     
 			<p></p>
 		
-
+                        <div id="changeText"> </div>
+                        
+                        <button id="plsClick">Please don't click me</button>
                         
 		</div>	<!--chiusura class homepage-->
 		

@@ -117,3 +117,10 @@ p.loginForm {   /*stile del form login*/
     color: red;
 
 }
+
+#changeText {   /**testo della pagina about.php*/
+        
+    color: white;
+    font-family: "Arial";
+    
+}

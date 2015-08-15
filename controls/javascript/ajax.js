@@ -1,10 +1,13 @@
 
 $(document).ready(function(){
     
-    $("button").click(function(){
+    $("#plsClick").click(function(){
 
-        $.ajax({url: "README.md", success: function(result){
-            $("#div1").html(result);
+        $.ajax({url: "README.md", 
+            
+            success: function(result){
+                alert("WHY?!");
+                $("#changeText").html(result);
         }});
     
     });
