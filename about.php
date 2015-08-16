@@ -33,9 +33,15 @@
 			<p></p>
 		
                         <div id="changeText"> 
+                            
+                            <h3>Com'&egrave; nata l'idea</h3>
                             <p>
+                                
                                 L' idea della slot machine nasce dopo la discussione sul progetto con un collega, 
-                                ancora non 
+                                ancora non nessuna idea su cosa sviluppare e l'idea del classico web store non mi
+                                soddisfava, avevo gi&agrave; perso troppo tempo su un progetto simile e ho deciso di scartarlo 
+                                solo qualche giorno prima. Mi chiedeva di fargli vedere come stessi sviluppando 
+                                la grafica
                             </p>
                         
                         </div>

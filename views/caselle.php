@@ -4,6 +4,6 @@
     <img id="casella2" src="images/caselle/default.png" alt="casella 2">
     <img id="casella3" src="images/caselle/default.png" alt="casella 3">
 
-    <br/>
+    <br>
 
 </div>

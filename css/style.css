@@ -121,6 +121,7 @@ p.loginForm {   /*stile del form login*/
 #changeText {   /**testo della pagina about.php*/
         
     color: white;
+    text-align: left;
     font-family: "Arial";
     margin-left: 10px;
     margin-right: 10px;

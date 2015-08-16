@@ -10,8 +10,8 @@
                             <input type='text' name='nomeScorer' 
                                    placeholder='Inserisci il tuo nome' maxlength='29' title="Inserisci l' username" required>
                     </label>
-                    &nbsp;
-                    <label>Monete: 
+                    &nbsp;      <!--tabulazione tra un form e l'altro-->
+                    <label>Monete:      <!--prende in ingresso un valore non modificabile-->
                             <input type='text' placeholder='Monete' name='punteggioMonete' 
                                    value="<?php echo htmlspecialchars($_GET['monete']); ?>" maxlength='20' title='Inserisci la password' required readonly>
                     </label><br/><br/>

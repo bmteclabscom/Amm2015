@@ -6,11 +6,12 @@ $(document).ready(function(){
     
     $("#plsClick").click(function(){
 
-        $.ajax({ url: "views/dettagli.txt", 
+        $.ajax({ url: "views/dettagli.txt",     //scarica i dettagli dal file di testo
             
             success: function(result){
                 //alert("WHY?!");
                 $("#changeText").html(result);  //sostituisce il testo indicato con quello scaricato dal file txt
+                $("#plsClick").hide();  //e nasconde il pulsante premuto
         }});
     
     });

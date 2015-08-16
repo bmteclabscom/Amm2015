@@ -2,7 +2,7 @@
 
 <?
     
-    include("classeTopScore.php");
+    include("classeTopScore.php");  //includo la classe per effettuare la transazione
     
     $tmp = new TopScore();
     

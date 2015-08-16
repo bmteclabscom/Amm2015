@@ -34,9 +34,9 @@
                 
                 echo '<title>Connessione rifiutata </title>';
                 
-                exit("Non hai i permessi per accedere a questa pagina <br/> <br/>"
+                exit("Non hai i permessi per accedere a questa pagina <br> <br>"
                         . "Se invece hai tentato una SQL injection mi spiace per te "
-                        . "ma sono un fissato di sicurezza informatica <br/>"
+                        . "ma sono un fissato di sicurezza informatica <br>"
                         . "Se comunque dovessi trovare delle falle nel progetto mi piacerebbe venirne a conoscenza &#9786;"
                         . '<br><br> <img src="https://imgs.xkcd.com/comics/exploits_of_a_mom.png" alt="xkcd comics">');    //chiude la connessione al sito
             }
