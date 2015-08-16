@@ -1,4 +1,4 @@
-<h2> Descrizione dell'applicazione </h2>
+<h3> Descrizione dell'applicazione </h3>
 <p>
     Il progetto è relativo a una slot machine che ha come tema il corso di laurea. 
     A seconda dei privilegi utente è possibile eseguire sessioni prolungate di partita. 

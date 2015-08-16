@@ -7,4 +7,6 @@ Author: Alessio Manai
 
 Il progetto è relativo a una slot machine che ha come tema il corso di laurea. A seconda dei privilegi utente è possibile eseguire sessioni prolungate di partita. I personaggi presenti all' interno del gioco sono di pura fantasia.
 
-Sviluppato con NetBeans, Firefox, Gimp e testato sulla macchina virtuale.
+Il progetto si trova alla pagina: http://spano.sc.unica.it/amm2015/manaiAlessio/
+
+Sviluppato con NetBeans 8.0.2, Firefox 40, Gimp 2.8.14 e testato su macchina virtuale VirtualBox 4.3.30 con Xubuntu Server 14.04.

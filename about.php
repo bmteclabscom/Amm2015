@@ -34,14 +34,28 @@
 		
                         <div id="changeText"> 
                             
+                            <h3>About the author</h3>
+                            <p>
+                                Alessio Manai, studente al secondo (ormai terzo) anno del corso di laurea in Informatica. 
+                                Mi appassionano le tecnologie informatiche e le loro falle di sicurezza. 
+                                Attualmente sviluppo sulla piattaforma Android.
+                            </p>
+                            
+                            
                             <h3>Com'&egrave; nata l'idea</h3>
                             <p>
                                 
                                 L' idea della slot machine nasce dopo la discussione sul progetto con un collega, 
-                                ancora non nessuna idea su cosa sviluppare e l'idea del classico web store non mi
+                                ancora non avevo nessuna idea su cosa sviluppare e l'idea del classico web store non mi
                                 soddisfava, avevo gi&agrave; perso troppo tempo su un progetto simile e ho deciso di scartarlo 
                                 solo qualche giorno prima. Mi chiedeva di fargli vedere come stessi sviluppando 
-                                la grafica
+                                la grafica del vecchio progetto (uno schifo) quando ad un certo punto del discorso 
+                                mi venne in mente di 
+                                fare qualcosa di banale, tipo una lotteria o un bingo con dentro qualche easter eggs 
+                                per rendere il progetto pi&ugrave; interessante, ed ecco che continuando a parlare ho partorito 
+                                la malsana idea di un' applicazione simile: tempo una sera e la slot machine era gi&agrave; 
+                                funzionante, mancava solo inserire ulteriori funzionalit&agrave; rispettando i requisiti della 
+                                consegna.
                             </p>
                         
                         </div>
