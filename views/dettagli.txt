@@ -11,7 +11,7 @@
     Una volta effettuato l' accesso all' applicazione vi troverete davanti alla slot machine spenta. 
     Per avviarla, occorre inserire una moneta cliccando sull' immagine "Insert coin to play"; una volta fatto sarà
     possibile azionare la leva. Per fermare la slot machine basta cliccare sulla leva. Per proseguire la partita 
-    bisognerà inserire un' altra moneta. <br>
+    bisognerà inserire un' altra moneta. 
     Se sarete fortunati, a seconda delle figure che usciranno potrete vincere un determinato tot di monete oppure
     un cambiamento dell' interfaccia di gioco. <br>
     Il gioco termina non appena finiscono le monete.
@@ -23,7 +23,7 @@
 <ul>
 	<li>Atzori ti da 5 monete</li>
 	<li>Scateni ti da 10 monete</li>
-	<li>Todor ti prende 5 monete e rende bianco lo sfondo</li>
+	<li>Todor ti prende 5 monete e rende lo sfondo bianco</li>
 	<li>Fenu nel caso lo sfondo sia bianco lo fa tornare normale e ti da 15 monete</li>
 	<li>Bartoletti ti da 200 monete</li>
 </ul>
