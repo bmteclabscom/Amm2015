@@ -20,6 +20,7 @@
                 <script src="controls/javascript/ajax.js"></script> <!-- inserimento ajax -->
                 
 		<title>About - UniCAsin&ograve; </title>  
+                <link rel="icon" type="image/png" href="/images/uicon.png"/>
 		
 	</head>
 

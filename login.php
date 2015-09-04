@@ -19,9 +19,11 @@
 		
 		<!-- selezione degli stili css-->
 		<link rel="stylesheet" type="text/css"	href="css/style.css" media="screen">	
+                
 
 
 		<title>Login to UniCAsin&ograve; </title>  
+                <link rel="icon" type="image/png" href="/images/uicon.png"/>
 		
 	</head>
 

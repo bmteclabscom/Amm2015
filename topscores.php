@@ -18,7 +18,8 @@
 		<!-- selezione degli stili css-->
 		<link rel="stylesheet" type="text/css"	href="css/style.css" media="screen">	
                 
-		<title>Top Scores - UniCAsin&ograve; </title>  
+		<title>Top Scores - UniCAsin&ograve; </title> 
+                <link rel="icon" type="image/png" href="/images/uicon.png"/>
 		
 	</head>
 
