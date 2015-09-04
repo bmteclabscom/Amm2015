@@ -23,7 +23,7 @@
 
 
 		<title>Login to UniCAsin&ograve; </title>  
-                <link rel="icon" type="image/png" href="/images/uicon.png"/>
+                <link rel="icon" type="image/png" href="images/uicon.png"/>
 		
 	</head>
 
