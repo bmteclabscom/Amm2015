@@ -5,7 +5,6 @@
 
         include("controls/notSetUser.php");     //se non sei loggato non puoi accedere
 
-        $_SESSION["monete"] = $_GET['monete']; 
     ?>
 
 <html>

@@ -112,5 +112,11 @@
             }
 
             gameEnabled = false;    //per continuare a giocare devi inserire monete!
-        }
+            
+            /*aggiorno in sessione il valore delle monete, 
+             * meglio questo che finalmente funziona rispetto alla
+                soluzione orribile di prima */
+            $.post("game.php", {moneteClick: totalCoins});  
+            
+            }
     }

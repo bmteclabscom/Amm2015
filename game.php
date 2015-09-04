@@ -4,6 +4,8 @@
             session_start();
                         
             include("controls/notSetUser.php");     //se non sei loggato non puoi accedere
+            
+            include("controls/checkMoney.php");     //aggiorno il valore delle monete se dovessi riaccedere alla pagina
 
         ?>
 

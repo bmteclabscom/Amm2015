@@ -4,9 +4,7 @@
             session_start();
         
             include("controls/notSetUser.php");
-            
-            $_SESSION["monete"] = $_GET['monete']; 
-             
+                         
             include("controls/classeTopScore.php");
             $topPunteggi = new TopScore();  //crea la variabile per i punteggi
         ?>

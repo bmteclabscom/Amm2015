@@ -13,7 +13,7 @@
                     &nbsp;      <!--tabulazione tra un form e l'altro-->
                     <label>Monete:      <!--prende in ingresso un valore non modificabile-->
                             <input type='text' placeholder='Monete' name='punteggioMonete' 
-                                   value="<?php echo htmlspecialchars($_GET['monete']); ?>" maxlength='20' title='Inserisci la password' required readonly>
+                                   value="<?php echo htmlspecialchars($_SESSION['monete']); ?>" maxlength='20' title='Inserisci la password' required readonly>
                     </label><br/><br/>
 
                     <input class='loginBotton' type='submit' name='sendR' value='Invia punteggio'>
