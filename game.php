@@ -21,7 +21,7 @@
                 <script src="libs/jquery-2.1.4.js"></script> <!-- inserimento jquery -->
 
 		<title>UniCAsin&ograve; </title>  
-                <link rel="icon" type="image/png" href="/images/uicon.png"/>
+                <link rel="icon" type="image/png" href="images/uicon.png"/>
 		
 	</head>
 
