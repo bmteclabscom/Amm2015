@@ -28,7 +28,9 @@
 
 		<div class='homepage'>
 			
-                    <img id="banner" src="images/unicacasino700.png" alt="UniCasino banner">
+                    <a href="game.php">     <!-- immagine clickabile per tornare alla partita -->
+                        <img id="banner" src="images/unicacasino700.png" alt="UniCasino banner">
+                    </a>
                     
 			<p></p>
 		
