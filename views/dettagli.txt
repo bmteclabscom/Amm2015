@@ -23,7 +23,6 @@
 <ul>
 	<li>Atzori ti da 5 monete</li>
 	<li>Scateni ti da 10 monete</li>
-	<li>Todor ti prende 5 monete e rende lo sfondo bianco</li>
 	<li>Fenu nel caso lo sfondo sia bianco lo fa tornare normale e ti da 15 monete</li>
 	<li>Bartoletti ti da 200 monete</li>
 </ul>
