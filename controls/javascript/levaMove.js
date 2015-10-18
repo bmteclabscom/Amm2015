@@ -13,9 +13,9 @@
             var casella1, casella2, casella3;   //variabili che definiscono il valore random
 
             //genero valori casuali
-            casella1 = Math.floor((Math.random() * 5) + 1 );
-            casella2 = Math.floor((Math.random() * 5) + 1 );
-            casella3 = Math.floor((Math.random() * 5) + 1 );
+            casella1 = Math.floor((Math.random() * 4) + 1 );
+            casella2 = Math.floor((Math.random() * 4) + 1 );
+            casella3 = Math.floor((Math.random() * 4) + 1 );
 
             //collego il codice all' html
             var pic1 = document.getElementById('casella1');
@@ -27,41 +27,35 @@
 
                 case 1: pic1.src = "images/caselle/gianni.png";
                     break;
-                case 2: pic1.src = "images/caselle/todor.png";
+                case 2: pic1.src = "images/caselle/maurizio.png";
                     break;
                 case 3: pic1.src = "images/caselle/riccardone.png";
                     break;
                 case 4: pic1.src = "images/caselle/massimo.jpg";
                     break;
-                case 5: pic1.src = "images/caselle/maurizio.png";
-                    break;
             }
 
             switch (casella2) {
 
-                case 1: pic2.src = "images/caselle/gianni.png";
+                case 1: pic1.src = "images/caselle/gianni.png";
                     break;
-                case 2: pic2.src = "images/caselle/todor.png";
+                case 2: pic1.src = "images/caselle/maurizio.png";
                     break;
-                case 3: pic2.src = "images/caselle/riccardone.png";
+                case 3: pic1.src = "images/caselle/riccardone.png";
                     break;
-                case 4: pic2.src = "images/caselle/massimo.jpg";
-                    break;
-                case 5: pic2.src = "images/caselle/maurizio.png";
+                case 4: pic1.src = "images/caselle/massimo.jpg";
                     break;
             }
 
             switch (casella3) {
 
-                case 1: pic3.src = "images/caselle/gianni.png";
+                case 1: pic1.src = "images/caselle/gianni.png";
                     break;
-                case 2: pic3.src = "images/caselle/todor.png";
+                case 2: pic1.src = "images/caselle/maurizio.png";
                     break;
-                case 3: pic3.src = "images/caselle/riccardone.png";
+                case 3: pic1.src = "images/caselle/riccardone.png";
                     break;
-                case 4: pic3.src = "images/caselle/massimo.jpg";
-                    break;
-                case 5: pic3.src = "images/caselle/maurizio.png";
+                case 4: pic1.src = "images/caselle/massimo.jpg";
                     break;
             }
         
@@ -77,9 +71,9 @@
                         aggiornaMonete();
                         break;
                         
-                    case 2: $("div.homepage").css("background-color", "white");
-                        alert("OMG IT'S TODOR! He just whitelized your blackboard and stole you 5 coins!");
-                        totalCoins -= 5;
+                    case 2:                         
+						alert("Atzori won the Google Prize! And gives you 5 coins");
+                        totalCoins += 5;
                         aggiornaMonete();
                         break;
                         
@@ -95,11 +89,6 @@
                         aggiornaMonete();
                         break;
                         
-                    case 5:  
-                        alert("Atzori won the Google Prize! And gives you 5 coins");
-                        totalCoins += 5;
-                        aggiornaMonete();
-                        break;
                         
                 }
                 
