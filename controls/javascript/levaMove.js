@@ -78,7 +78,7 @@
                         break;
                         
                     case 3:  
-                        alert("Scateni wants to play Pong! But he gives you 10 coins");
+                        alert("Scateni gives you 10 coins");
                         totalCoins += 10;
                         aggiornaMonete();
                         break;
